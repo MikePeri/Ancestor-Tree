@@ -303,7 +303,7 @@ namespace family{
 		//cout<<"Deleting:\t"<<root->name<<endl;
 		
 		delete root->father;		
-		delete root->father; 
+		delete root->mother; 
 		
 	}
 	
