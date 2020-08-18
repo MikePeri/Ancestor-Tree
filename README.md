@@ -1,30 +1,18 @@
 <div dir="rtl" lang="he">
 
-# עץ הורים - שלב ב
+# Ancestor Tree
+Simple program that store in Tree all your family tree.
 
-להסבר על המטלה ראו 
-[שלב א](../../../ancestor-tree-a).
+# Functionality:
+* addFather - adding father for existing person in tree.
+* addMother - adding mother for existing person in tree.
+* relation - accept name and output the relation between me and him like: father, mother, grandmother, great-grandfather, great-great-grandmother ot unrelated.
+* find - Accept relation and output name that answer the relation.
+* display - representation of the tree.
+* remove - accept name and remove it from the tree.
 
-בשלב ב עליכם לכתוב מימוש מלא של המחלקה. 
-המימוש צריך לעבור את כל הבדיקות - שלכם ושלנו.
 
-אנחנו מריצים את הפקודה
-
-<div dir='ltr'>
-
-	bash grade
-
-</div>
-
-שמריצה את הפקודות:
-
-<div dir='ltr'>
-
-	make test
-	./test
-
-</div>
-
-שימו לב: אין לשנות קבצים קיימים אלא רק להוסיף קבצים חדשים.
+For better understanding the code, you can view:
+[Demo.cpp](Demo.cpp)
 
 </div>
